@@ -25,7 +25,7 @@ export default function App(){
         />
         <main>
           <Post 
-            photo={womanImg}
+            photo={"https://github.com/ViniciusCoutt.png"}
             author="Jane Cooper"
             bio="Dev Front-End"
             createdAt={1}
@@ -35,7 +35,7 @@ export default function App(){
           /> 
 
           <Post 
-            photo={womanImg}
+            photo={"https://github.com/ViniciusCoutt.png"}
             author="Vinicius Coutinho"
             bio="Dev Back-End"
             createdAt={3}
