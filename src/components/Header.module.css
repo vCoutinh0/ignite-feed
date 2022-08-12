@@ -5,6 +5,7 @@
     align-items: center;
     padding: 1.25rem 0;
     gap: 1rem;
+    max-height: 6.25rem;
 }
 
 .header img {
