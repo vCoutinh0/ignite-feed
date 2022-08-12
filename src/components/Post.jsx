@@ -1,11 +1,13 @@
 import styles from './Post.module.css';
+import { Avatar } from './Avatar';
+import { Comment } from './Comment.jsx';
 
 export function Post(props) {
     return (
         <article className={styles.post}>
             <header>
                 <div className={styles.perfil}>
-                    <img src={props.photo} alt="photo"/>
+                    <Avatar src={props.photo} alt="photo"/>
                     <span>
                         <strong>{props.author}</strong> 
                         <p>{props.bio}</p>
@@ -27,7 +29,9 @@ export function Post(props) {
 
                 <button type="submit"><strong>Publicar</strong></button>
             </section>
-
+            <Comment/>
+            <Comment/>
+            <Comment/>
             
         </article>
     )

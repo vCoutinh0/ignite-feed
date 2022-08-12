@@ -22,14 +22,6 @@
     gap: 1rem;
 }
 
-.post > header .perfil img {
-    width: calc(3rem + 12px);
-    height: calc(3rem + 12px);
-    border: 4px solid var(--gray-800);
-    border-radius: 8px;
-    outline: 2px solid var(--green-500);
-}
-
 .post > header .perfil span strong {
     color: var(--gray-100);
     line-height: 1.6;
